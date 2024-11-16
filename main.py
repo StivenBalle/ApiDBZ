@@ -94,17 +94,23 @@ SAMPLE_CHARACTERS = [
         maxKi = "90 Septillion",
         race = "Saiyan",
         gender = "Male",
-        description = "El protagonista de la serie, conocido por su gran poder y personalidad amigable...",
+        description ="El protagonista de la serie, conocido por su gran poder y personalidad amigable. Originalmente enviado a la Tierra como un infante volador con la misión de conquistarla. Sin embargo, el caer por un barranco le proporcionó un brutal golpe que si bien casi lo mata, este alteró su memoria y anuló todos los instintos violentos de su especie, lo que lo hizo crecer con un corazón puro y bondadoso, pero conservando todos los poderes de su raza. No obstante, en la nueva continuidad de Dragon Ball se establece que él fue enviado por sus padres a la Tierra con el objetivo de sobrevivir a toda costa a la destrucción de su planeta por parte de Freeza. Más tarde, Kakarot, ahora conocido como Son Goku, se convertiría en el príncipe consorte del monte Fry-pan y líder de los Guerreros Z, así como el mayor defensor de la Tierra y del Universo 7, logrando mantenerlos a salvo de la destrucción en innumerables ocasiones, a pesar de no considerarse a sí mismo como un héroe o salvador.",
         image = "https://dragonball-api.com/characters/goku_normal.webp",
         affiliation = "Z Fighter",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
+            Transformation(
+                id = 1,
+                name = "Goku Ozaru",
+                image = "",
+                ki = "180.000",
+            ),
             Transformation(
                 id = 1,
                 name = "Goku SSJ",
@@ -125,21 +131,33 @@ SAMPLE_CHARACTERS = [
             ),
             Transformation(
                 id = 4,
+                name = "Goku SSJ Fase Dios",
+                image = "",
+                ki = "2.880.000.000.000",
+            ),
+            Transformation(
+                id = 5,
                 name = "Goku SSJ4",
                 image = "https://dragonball-api.com/transformaciones/goku_ssj4.webp",
                 ki = "24 Billion",
             ),
             Transformation(
-                id = 5,
+                id = 6,
                 name = "Goku SSJB",
                 image = "https://dragonball-api.com/transformaciones/goku_ssjb.webp",
                 ki = "24 Billion",
             ),
             Transformation(
-                id = 6,
+                id = 1,
+                name = "Goku SSJB Kaioken X20",
+                image = "",
+                ki = "5 Cuatrillones",
+            ),
+            Transformation(
+                id = 7,
                 name = "Goku Ultra Instinc",
                 image = "https://dragonball-api.com/transformaciones/goku_ultra.webp",
-                ki = "24 Billion",
+                ki = "100 Cuatrillones",
             )
         ]
     ),
@@ -150,17 +168,23 @@ SAMPLE_CHARACTERS = [
         maxKi = "19.84 Septillion",
         race = "Saiyan",
         gender = "Male",
-        description = "Príncipe de los Saiyans, inicialmente un villano, pero luego se une a los Z Fighters.",
+        description =  "Príncipe de los Saiyans, inicialmente un villano, pero luego se une a los Z Fighters. A pesar de que a inicios de Dragon Ball Z, Vegeta cumple un papel antagónico, poco después decide rebelarse ante el Imperio de Freeza, volviéndose un aliado clave para los Guerreros Z. Con el paso del tiempo llegaría a cambiar su manera de ser, optando por permanecer y vivir en la Tierra para luchar a su lado contra las inminentes adversidades que superar. Junto con Piccolo, él es de los antiguos enemigos de Goku que ha evolucionando al pasar de ser un villano y antihéroe, a finalmente un héroe a lo largo del transcurso de la historia, convirtiéndose así en el deuteragonista de la serie.",
         image = "https://dragonball-api.com/characters/vegeta_normal.webp",
         affiliation = "Z Fighter",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
+            Transformation(
+                id = 1,
+                name = "Vegeta Ozaru",
+                image = "",
+                ki = "180.000",
+            ),
             Transformation(
                 id = 7,
                 name = "Vegeta SSJ",
@@ -174,16 +198,34 @@ SAMPLE_CHARACTERS = [
                 ki = "24 Billion",
             ),
             Transformation(
+                id = 1,
+                name = "Majin vegeta SSJ2",
+                image = "",
+                ki = "20.000.000.000",
+            ),
+            Transformation(
                 id = 9,
                 name = "Vegeta SSJ4",
                 image = "https://dragonball-api.com/transformaciones/vegeta ssj4.webp",
                 ki = "1.8 Trillion",
             ),
             Transformation(
+                id = 1,
+                name = "Vegeta SSJ Fase Dios",
+                image = "",
+                ki = "600.000.000.000",
+            ),
+            Transformation(
                 id = 10,
-                name = "Goku SSJB",
+                name = "Vegeta SSJB",
                 image = "https://dragonball-api.com/transformaciones/vegeta SSJB.webp",
                 ki = "100 Quintillion",
+            ),
+            Transformation(
+                id = 1,
+                name = "Vegeta SSJB Evolution",
+                image = "",
+                ki = "10.000.000.000.000",
             ),
             Transformation(
                 id = 11,
@@ -211,6 +253,12 @@ SAMPLE_CHARACTERS = [
             image = "https://dragonball-api.com/planetas/Tierra_Dragon_Ball_Z.webp",
         ),
         transformations = [
+            Transformation(
+                id = 1,
+                name = "Gohan Ozaru",
+                image = "",
+                ki = "10.000",
+            ),
             Transformation(
                 id = 12,
                 name = "Gohan SSJ",
@@ -251,7 +299,7 @@ SAMPLE_CHARACTERS = [
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
@@ -270,7 +318,7 @@ SAMPLE_CHARACTERS = [
         maxKi = "37.4 Septillion",
         race = "Saiyan",
         gender = "Male",
-        description = "Príncipe de los Saiyans, inicialmente un villano, pero luego se une a los Z Fighters.",
+        description = "Hijo de Vegeta y Bulma. Es un mestizo entre humano terrícola y Saiyano nacido en la Tierra, e hijo de Bulma y Vegeta, el cual es introducido en el Arco de los Androides y Cell. Más tarde en su vida como joven, se termina convirtiendo en un luchador de artes marciales, el mejor amigo de Son Goten y en el hermano mayor de su hermana Bra.",
         image = "https://dragonball-api.com/characters/Trunks_Buu_Artwork.webp",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -301,20 +349,20 @@ SAMPLE_CHARACTERS = [
             ),
             Transformation(
                 id = 20,
-                name = "Trunks Rage",
+                name = "Trunks future Rage",
                 image = "https://dragonball-api.com/transformaciones/trunks ssj iracundo.webp",
-                ki = "17.5 Quintillion",
+                ki = "37.4 Septillion",
             )
         ]
     ),
     Character(
         id = 6,
         name = "Goten",
-        ki = "",
-        maxKi = "",
+        ki = "19.000.000",
+        maxKi = "18.000.000.000",
         race = "Saiyan",
         gender = "Male",
-        description = "",
+        description = "Hijo de Goku y Milk. Es un mestizo entre humano terrícola y Saiyano nacido en la Tierra, el cual es introducido en el Arco de los Androides y Cell. Más tarde en su vida como joven, se termina convirtiendo en un luchador de artes marciales, el mejor amigo de Trunks y en el hermano menor de su hermano Gohan.",
         image = "",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -327,33 +375,15 @@ SAMPLE_CHARACTERS = [
         transformations = [
             Transformation(
                 id = 7,
-                name = "",
+                name = "Goten SSJ",
                 image = "",
-                ki = "",
+                ki = "910.000.000",
             ),
             Transformation(
                 id = 8,
-                name = "",
+                name = "Goten SSJ2",
                 image = "",
-                ki = "",
-            ),
-            Transformation(
-                id = 9,
-                name = "",
-                image = "",
-                ki = "",
-            ),
-            Transformation(
-                id = 10,
-                name = "",
-                image = "",
-                ki = "",
-            ),
-            Transformation(
-                id = 11,
-                name = "",
-                image = "",
-                ki = "",
+                ki = "18.000.000.000",
             )
         ]
     ),
@@ -364,40 +394,28 @@ SAMPLE_CHARACTERS = [
         maxKi = "180.000.000",
         race = "Saiyan",
         gender = "Male",
-        description = "Príncipe de los Saiyans, inicialmente un villano, pero luego se une a los Z Fighters.",
+        description = "Es un saiyano de clase baja proveniente del Planeta Vegeta del Universo 7. Pertenece al Ejército Saiyano, que está bajo el liderazgo del Rey Vegeta, y es jefe de su escuadrón durante la anexión del planeta por parte de las fuerzas coloniales del Imperio de Freeza. Él es el esposo de Gine y padre biológico de Kakarotto y Raditz.",
         image = "https://dragonball-api.com/characters/vegeta_normal.webp",
         affiliation = "Z Fighter",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
             Transformation(
                 id = 7,
-                name = "",
+                name = "Bardock Ozaru",
                 image = "",
-                ki = "",
+                ki = "100.000",
             ),
             Transformation(
                 id = 8,
-                name = "",
+                name = "Bardock SSJ",
                 image = "",
-                ki = "",
-            ),
-            Transformation(
-                id = 9,
-                name = "",
-                image = "",
-                ki = "",
-            ),
-            Transformation(
-                id = 10,
-                name = "",
-                image = "",
-                ki = "",
+                ki = "180.000.000",
             )
         ]
     ),
@@ -415,57 +433,28 @@ SAMPLE_CHARACTERS = [
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
-            Transformation(
-                id = 7,
-                name = "Vegeta SSJ",
-                image = "https://dragonball-api.com/transformaciones/vegeta SSJ (2).webp",
-                ki = "330.000.000",
-            ),
-            Transformation(
-                id = 8,
-                name = "Vegeta SSJ2",
-                image = "https://dragonball-api.com/transformaciones/vegeta SSJ2.webp",
-                ki = "24 Billion",
-            ),
-            Transformation(
-                id = 9,
-                name = "Vegeta SSJ4",
-                image = "https://dragonball-api.com/transformaciones/vegeta ssj4.webp",
-                ki = "1.8 Trillion",
-            ),
-            Transformation(
-                id = 10,
-                name = "Goku SSJB",
-                image = "https://dragonball-api.com/transformaciones/vegeta SSJB.webp",
-                ki = "100 Quintillion",
-            ),
-            Transformation(
-                id = 11,
-                name = "Vegeta Mega Instinc Evil",
-                image = "https://dragonball-api.com/transformaciones/vegeta mega instinto.webp",
-                ki = "19.84 Septillion",
-            )
+
         ]
     ),
     Character(
         id = 9,
         name = "Nappa",
-        ki = "",
-        maxKi = "",
+        ki = "4.000",
+        maxKi = "7.000",
         race = "Saiyan",
         gender = "Male",
-        description = "",
+        description = "Nappa es un antagonista en el manga de Dragon Ball y su adaptación al anime, Dragon Ball Z, quien también hace apariciones breves en Dragon Ball GT y Dragon Ball Super.",
         image = "",
         affiliation = "",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
@@ -475,19 +464,19 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 10,
         name = "Turles",
-        ki = "",
-        maxKi = "",
-        race = "",
+        ki = "9.000",
+        maxKi = "250.000",
+        race = "Saiyan",
         gender = "Male",
-        description = "",
+        description = "Tullece, también conocido como Tulece o Turles, es un saiyano desertor del Ejército de Freeza que más tarde se convertiría en pirata espacial. Un siniestro personaje con gran parecido físico a Son Goku que, junto con la ayuda de su pelotón, plantaba en los planetas una diabólica semilla que daba un fruto capaz de dotar de un tremendo poder a quien lo deguste, y los destruía al pasar cierto tiempo, luego de absorber toda la energía de estos.",
         image = "",
-        affiliation = "",
+        affiliation = "Villain",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "",
-            image = "",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
+            image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
 
@@ -496,18 +485,18 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 11,
         name = "Gine",
-        ki = "",
-        maxKi = "",
+        ki = "1.000",
+        maxKi = "1.000",
         race = "Saiyan",
         gender = "Female",
-        description = "",
+        description = "Gine fue una mujer saiyana del Universo 7 de clase baja, esposa de Bardock y madre biológica de Kakarotto y Raditz. Trabajaba en el Centro de distribución de carne del Planeta Vegeta tras haberse retirado del Escuadrón de Bardock debido a su naturaleza dócil.",
         image = "",
-        affiliation = "",
+        affiliation = "Z Figther",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
@@ -517,18 +506,18 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 12,
         name = "Paragus",
-        ki = "",
-        maxKi = "",
+        ki = "4.200",
+        maxKi = "4.200",
         race = "Saiyan",
         gender = "Male",
-        description = "",
+        description = "Paragus era un saiyano nacido en el planeta Vegeta y es el padre de Broly. En un intento de vengarse de Vegeta, acabó muerto por su hijo Broly cuando iba a abandonarle debido a que el Nuevo Planeta Vegeta iba a ser destruido por un meteorito.",
         image = "",
-        affiliation = "",
+        affiliation = "Other",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
             isDestroyed = True,
-            description = "El planeta Vegeta, conocido como planeta Plant...",
+            description = "El planeta Vegeta, conocido como planeta Plant antes del fin de la Guerra Saiyan-tsufruiana en el año 730, es un planeta rocoso ficticio de la serie de manga y anime Dragon Ball y localizado en la Vía Láctea de las Galaxias del Norte del Universo 7 hasta su destrucción a manos de Freezer en los años 737-739. Planeta natal de los Saiyans, destruido por Freezer. Anteriormente conocido como Planeta Plant.",
             image = "https://dragonball-api.com/planetas/Planeta_Vegeta_en_Dragon_Ball_Super_Broly.webp",
         ),
         transformations = [
@@ -538,13 +527,13 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 13,
         name = "Rey Vegeta",
-        ki = "",
-        maxKi = "",
+        ki = "11.500",
+        maxKi = "11.500",
         race = "Saiyan",
         gender = "Male",
-        description = "",
+        description = "Vegeta III, reconocido oficialmente como Rey Vegeta III o mejor conocido simplemente como el Rey Vegeta, es el padre del Príncipe Vegeta IV y Tarble, también fue el último y más reciente rey y líder de los saiyanos y el comandante del Ejército Saiyano que emigró del extinto Planeta Sadala al Planeta Vegeta, el cual fue rebautizado con su nombre tras llevar a su gente a la victoria en la Guerra saiyano-tsufruiana.",
         image = "",
-        affiliation = "",
+        affiliation = "leader of the SSJ army",
         originPlanet = Planet(
             id = 3,
             name = "Vegeta",
@@ -559,11 +548,11 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 14,
         name = "Son Pan",
-        ki = "",
-        maxKi = "",
-        race = "",
+        ki = "6.000",
+        maxKi = "3.000.000",
+        race = "Human/Saiyan",
         gender = "Female",
-        description = "",
+        description = "Pan es la hija de Videl y Gohan, siendo sus abuelos paternos Goku y Chi-Chi y sus abuelos maternos Mr. Satán y la fallecida cantante Miguel.",
         image = "",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -580,11 +569,11 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 15,
         name = "Bra",
-        ki = "",
-        maxKi = "",
+        ki = "unknown",
+        maxKi = "unknown",
         race = "Saiyan",
         gender = "Female",
-        description = "",
+        description = "Bra, conocida anteriormente como Bura en Hispanoamérica, es la segunda hija de Bulma y Vegeta, hermana de Trunks, por lo tanto es mestiza entre Saiyan y humana terrícola.",
         image = "",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -601,8 +590,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 16,
         name = "Chaoz",
-        ki = "",
-        maxKi = "",
+        ki = "250.000",
+        maxKi = "300.000.000",
         race = "",
         gender = "Male",
         description = "",
@@ -643,11 +632,11 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 18,
         name = "Ox-Satán",
-        ki = "0",
-        maxKi = "0",
+        ki = "65",
+        maxKi = "65",
         race = "Human",
         gender = "Male",
-        description = "",
+        description = "El Rey Gyuma más conocido como Ox-Satán es el rey del Monte Fry-pan. Fue esposo de la fallecida reina de esta montaña con quien tuvo a su hija, Chi-Chi. Años después, se convertiría en el suegro de Son Goku y el abuelo de Son Gohan y Son Goten.",
         image = "",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -685,11 +674,11 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 20,
         name = "Maestro Karin",
-        ki = "",
-        maxKi = "",
-        race = "Human",
+        ki = "169",
+        maxKi = "169",
+        race = "Animal",
         gender = "Male",
-        description = "",
+        description = "El maestro Karin es uno de los primeros maestros que llevó a Goku a un siguiente nivel de su poder, más allá de las artes marciales. Es el encargado de dotar de nubes voladoras a quien lo merezca. Para llegar a él, sin saber volar, el pequeño saiyajin tuvo que escalar una extensa torre, la que conocemos como Torre de Karin.",
         image = "",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -748,11 +737,11 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 23,
         name = "Oob",
-        ki = "",
-        maxKi = "",
+        ki = "300",
+        maxKi = "800.000.000",
         race = "Human",
         gender = "Male",
-        description = "",
+        description = "Oob, también conocido como Ub o Uub, es la reencarnación del Majin-Boo Puro y el terrícola más fuerte de toda la franquicia. Tras pelear en la 28° edición del Torneo Mundial de las Artes Marciales, él se convirtió en el discípulo de Son Goku.",
         image = "",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -790,11 +779,11 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 25,
         name = "Yajirobe",
-        ki = "",
-        maxKi = "",
+        ki = "970",
+        maxKi = "2.100",
         race = "Human",
         gender = "Male",
-        description = "",
+        description = "Yajirobei es un personaje secundario en Dragon Ball y Dragon Ball Z, y también toma un aspecto de menor importancia en Dragon Ball Super[2] y Dragon Ball GT.",
         image = "",
         affiliation = "Z Fighter",
         originPlanet = Planet(
@@ -832,8 +821,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 27,
         name = "Android 8",
-        ki = "",
-        maxKi = "",
+        ki = "134",
+        maxKi = "134",
         race = "Android",
         gender = "Male",
         description = "El Androide Número 8, es un androide creado por el Dr. Gero y el Dr. Frappé como una de las armas secretas del Ejército del Listón Rojo, siendo el encargado de la seguridad de la Torre Músculo en sus últimos niveles. Tiene una fuerza muy superior a la de un humano corriente así como un tamaño y físico aterradores.",
@@ -853,8 +842,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 28,
         name = "Android 9",
-        ki = "",
-        maxKi = "",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Android",
         gender = "Male",
         description = "El Androide Número 9, es un androide mecánico miembro del Ejército de los Pantalones Rojos construido por el Dr. Gero del Ejército del Listón Rojo en el videojuego Dragon Ball Online.",
@@ -1042,8 +1031,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 37,
         name = "Android 21",
-        ki = "",
-        maxKi = "",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Android",
         gender = "Female",
         description = "La Androide Número 21, es un androide creado a base humana que aparece por primera vez en el videojuego Dragon Ball FighterZ. Es una científica del Ejército Red Ribbon. Ella explica que “ni siquiera” tiene diez años y fue construida a imagen de una mujer humana con el coeficiente de inteligencia de un adulto.",
@@ -1063,8 +1052,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 38,
         name = "Arale Norimaki",
-        ki = "",
-        maxKi = "",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Android",
         gender = "Female",
         description = "Arale Norimaki, es la máxima protagonista de la serie creada por Akira Toriyama Dr. Slump, también hace su aparición en Dragon Ball, Dragon Ball Super y cameos menores a lo largo de la serie.",
@@ -1122,11 +1111,11 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 40,
         name = "Cell Jr",
-        ki = "",
-        maxKi = "",
+        ki = "28.000.000",
+        maxKi = "28.000.000",
         race = "Android",
         gender = "Male",
-        description = "",
+        description = "Loas Cell Jr son pequeños engendros de Cell, que aparecieron luego de que Cell en su forma perfectalos expulsara de su cuerpo. Cada uno de ellos tienen las mismas técnicas y son casi tan fuertes como su padre.",
         image = "",
         affiliation = "Villain",
         originPlanet = Planet(
@@ -1143,8 +1132,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 41,
         name = "Bio-Broly",
-        ki = "",
-        maxKi = "",
+        ki = "6.500.000.000",
+        maxKi = "6.500.000.000",
         race = "Android",
         gender = "Male",
         description = "Bio-Broly, es un clon mutante del Supersaiyano Legendario Broly. Hace su primera y única aparición cómo antagonista en la película Dragon Ball Z: ¡Los superguerreros vencen! La victoria solamente será mía.",
@@ -1164,8 +1153,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 42,
         name = "Super Android 17",
-        ki = "",
-        maxKi = "",
+        ki = "800.000.000.000",
+        maxKi = "800.000.000.000.000",
         race = "Android",
         gender = "Male",
         description = "Super Número 17, es el superandroide definitivo, formado por la unión entre el Androide Número 17 y su nueva versión, el Androide Número 17 del Infierno, creado por el Dr. Mu y el Dr. Gero en el Infierno. Aparece por primera vez como el antagonista principal del Arco del Androide Definitivo en Dragon Ball GT.",
@@ -1185,8 +1174,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 43,
         name = "Bubbles",
-        ki = "0",
-        maxKi = "0",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Mono",
         gender = "Male",
         description = "Bubbles es la mascota y amigo del Kaio del Norte. Él vive junto al Kaio del Norte y Gregory, ayudando al Kaio del Norte en las pruebas de sus alumnos, donde por lo general los discípulos del Kaio del Norte lo deben de atrapar, tarea difícil ya que la gravedad del Planeta Kaio es muy alta y Bubbles está acostumbrado a ella.",
@@ -1206,8 +1195,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 44,
         name = "Gregory",
-        ki = "0",
-        maxKi = "0",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Sprite",
         gender = "Male",
         description = "Android 16 es un androide gigante conocido por su amor a la naturaleza y la vida.",
@@ -1227,8 +1216,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 45,
         name = "Oolong",
-        ki = "",
-        maxKi = "",
+        ki = "10",
+        maxKi = "10",
         race = "Animal",
         gender = "Male",
         description = "Oolong es un personaje del manga y anime de Dragon Ball, el cual forma parte del grupo que acompaña a Bulma en la primera búsqueda de las Esferas del Dragón. Representa al personaje Zhu Bajie de la historia china Viaje al Oeste.",
@@ -1248,8 +1237,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 46,
         name = "Piano",
-        ki = "",
-        maxKi = "",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Demon warrior",
         gender = "Asexuado",
         description = "Piano fue el primer 'hijo' del Gran Rey Demonio Piccolo después de su liberación de la técnica Mafuba a manos de Pilaf. Es un ser bastante inteligente, posee forma de pterodáctilo, y a pesar de ser el retoño más longevo del Rey Demonio, este lo trata como una especie de sirviente.",
@@ -1270,8 +1259,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 47,
         name = "Puar",
-        ki = "",
-        maxKi = "",
+        ki = "Unknown",
+        maxKi = "Inknown",
         race = "Animal",
         gender = "Male",
         description = "Pu'er es el compañero inseparable de Yamcha. Aunque al principio era un enemigo, pasa a formar parte del grupo que acompaña a Son Goku, Bulma y Woolong en la primera búsqueda de las Esferas del Dragón en la serie de manga y anime de Dragon Ball.",
@@ -1291,8 +1280,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 48,
         name = "Shu",
-        ki = "",
-        maxKi = "",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Humanoide",
         gender = "Male",
         description = "Shu, inicialmente conocido en el manga como Soba, es un perro humanoide. Forma parte del grupo de Pilaf y desde el principio de Dragon Ball hasta Dragon Ball GT estuvo intentando junto a su amo Pilaf conquistar el mundo.",
@@ -1312,8 +1301,8 @@ SAMPLE_CHARACTERS = [
     Character(
         id = 49,
         name = "Tortuga Marina",
-        ki = "",
-        maxKi = "",
+        ki = "Unknown",
+        maxKi = "Unknown",
         race = "Animal",
         gender = "Male",
         description = "Tortuga Marina, conocido como Urigame en Hispanoamérica, es la tortuga que ha acompañado al Maestro Roshi durante un largo tiempo; tiene más de mil años de edad y hace cientos de años que aprendió a hablar.",
@@ -1344,8 +1333,302 @@ SAMPLE_CHARACTERS = [
             id = 2,
             name = "Universo 1",
             isDestroyed = False,
-            description = "",
+            description = "El Universo 1, el Universo Supremo, como su nombre lo indica, el primero de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 12.",
             image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 51,
+        name = "Sour",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Sour es el ángel guía del Universo 2, sirviente y maestro de artes marciales personal de la Diosa de la Destrucción Jerez. Es un personaje del Arco de Supervivencia Universal del anime y manga de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Jerez",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 2",
+            isDestroyed = False,
+            description = "El Universo 2, el Universo Amable, como su nombre lo indica, el segundo de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 11.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 52,
+        name = "Camparli",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Camparri es el ángel guía encargado del Universo 3, sirviente y maestro de artes marciales del Dios de la Destrucción Mosco. Es un personaje del Arco de Supervivencia Universal de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Mosco",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 3",
+            isDestroyed = False,
+            description = "El Universo 3, el Universo Espiritual, como su nombre lo indica, el tercero de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 10.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 53,
+        name = "Cognic",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Cognic es el ángel guía encargado del universo 4, sirviente y maestro del Diosd e la destrucción Quitela. Es un personaje del Arco de la supervivencia universal de Dragon ball Super.",
+        image = "",
+        affiliation = "Assistant of Quitela",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 4",
+            isDestroyed = False,
+            description = "El Universo 4, el Universo Conspirativo, como su nombre lo indica, el cuarto de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 9.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 54,
+        name = "Cucatail",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Female",
+        description = "Cucatail es el ángel guía encargado del Universo 5, tratándose de la sirvienta y maestra de artes marciales del Dios de la Destrucción Arak. Es un personaje del Arco de Supervivencia Universal de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Arak",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 5",
+            isDestroyed = False,
+            description = "El Universo 5, el Universo Equilibrado, como su nombre lo indica, el quinto de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 8.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 55,
+        name = "Vados",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Female",
+        description = "Vados en un ángel guía, una de las hijas del Gran Sacerdote, hermana mayor de Whis y menos de Kus. Es la asistente, sirvienten y maestra del Dios de la destrucción Champa del universo 6 que hace su debut en el primer anime y manga de Dragon ball Super como un personaje secundario.",
+        image = "",
+        affiliation = "Assistant of Champa",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 6",
+            isDestroyed = False,
+            description = "El Universo 6, el Universo Desafiante, como su nombre lo indica, el sexto de los doce universos existentes actualmente en el omniverso de Dragon Ball, que incluye los planetas, las estrellas y una innumerable cantidad de galaxias. El sexto universo está vinculado con el séptimo, creándose lo que parece ser un universo espejo. Es donde residen el Dios de la Destrucción, Champa y su ángel guía, Vados.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 56,
+        name = "Whis",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Whis es uno de los hijos del Gran Sacerdote, hermano menor de Vados, Korn y Kus. Es el ángel guía encargado de asistir y servir como maestro al Dios de la Destrucción del univberso 7. Tuvo su primera aparición en la película Dragon Ball Z: La batalla de los dioses y es un personaje recurrente en el anime y manga de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Beerus",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 7",
+            isDestroyed = False,
+            description = "El Universo 7, el séptimo de los doce universos existentes actualmente en el omniverso de Dragon Ball y el principal de todos ellos. El Kaio-shin de este universo es Shin, mientras que el Dios de la Destrucción es Beerus. Este universo es en donde casi toda la serie Dragon Ball se lleva a cabo.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 57,
+        name = "Korn ",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Korn es uno de los doce hijos del Gran Sacerdote y hermano mayor de Whis. Es el ángel guía encargado del Universo 8, laborando como sirviente, asistente y maestro de artes marciales del Dios de la Destrucción Liquir. Es un personaje del Arco de Supervivencia Universal del anime y manga de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Liquir",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 8",
+            isDestroyed = False,
+            description = "El Universo 8, el octavo de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 5.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 58,
+        name = "Mojito",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Mojito es el ángel guía del Universo 9, que fue el sirviente y maestro de artes marciales del Dios de la Destrucción Sidra hasta la destrucción de su Universo. Es un personaje del Arco de Supervivencia Universal de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Sidra",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 9",
+            isDestroyed = False,
+            description = "El Universo 9, conocido como el Universo Improvisado, como su nombre lo indica, es el noveno de los doce universos existentes actualmente en el mundo de Dragon Ball.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 59,
+        name = "Kus",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Female",
+        description = "Kus des el ángel guía del Universo 10, sirviente y maestra de artes marciales del Dios de la Destrucción Rumoosh. Como hermana de todos los ángeles guía, es la hija de mayor edad del Gran Sacerdote.",
+        image = "",
+        affiliation = "Assistant of Rumoosh",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 10",
+            isDestroyed = False,
+            description = "El Universo 10, conocido como el Universo Macho, como su nombre lo indica, el décimo de los doce universos existentes actualmente en el mundo de Dragon Ball.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 60,
+        name = "Marcarita",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Female",
+        description = "Marcarita es el ángel guía del Universo 11, sirviente y maestra de artes marciales del Dios de la Destrucción Vermoud. Es un personaje de la Arco de la Supervivencia Universal de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Vermond",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 11",
+            isDestroyed = False,
+            description = "El Universo 11, el Universo de la Justicia, como su nombre lo indica, el undécimo de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 2 y el lugar de origen de las Tropas del Orgullo.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 61,
+        name = "Martinu",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Martinu es el ángel guía encargado del Universo 12, sirviente y maestro de artes marciales del Dios de la Destrucción Geen. Es un personaje del Arco de Supervivencia Universal de Dragon Ball Super.",
+        image = "",
+        affiliation = "Assistant of Geen",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 12",
+            isDestroyed = False,
+            description = "El Universo 12, el Universo Definitivo, como su nombre lo indica, el duodécimo de los doce universos existentes actualmente en el mundo de Dragon Ball. Este es gemelo del Universo 1.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 62,
+        name = "Merusu",
+        ki = "",
+        maxKi = "",
+        race = "Angel",
+        gender = "Male",
+        description = "Awamo es el ángel guía encargado del Universo 1, sirviente y maestro de artes marciales del Dios de la Destrucción Iwen. Es un personaje del Arco de Supervivencia Universal de Dragon Ball Super.",
+        image = "",
+        affiliation = "Apprentic Angel",
+        originPlanet = Planet(
+            id = 2,
+            name = "Universo 7",
+            isDestroyed = False,
+            description = "El Universo 7, Nuestro Universo, como su nombre lo indica, el séptimo de los doce universos existentes actualmente en el omniverso de Dragon Ball y el principal de todos ellos. El Kaio-shin de este universo es Shin, mientras que el Dios de la Destrucción es Beerus. Este universo es en donde casi toda la serie Dragon Ball se lleva a cabo.",
+            image = "",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 63,
+        name = "Gran Sacerdote",
+        ki = "969 Googolplex",
+        maxKi = "969 Googolplex",
+        race = "Angel",
+        gender = "Male",
+        description = "El Sumo Sacerdote es un personaje introducido en Dragon Ball Super; es un ángel guía que recibe a las visitas en el palacete del Rey de Todo y guía a los invitados hasta él. Es el padre de los ángeles guía de todos los universos, siendo que Kus es su hija mayor.",
+        image = "",
+        affiliation = "Assistant of Zeno",
+        originPlanet = Planet(
+            id = 2,
+            name = "Templo móvil del rey de todo",
+            isDestroyed = False,
+            description = "El templo móvil del Rey de Todo (sala del trono), es como su nombre lo indica, un templo móvil en el cual reside los tronos de los dos Reyes de Todo en el Lugar de Supervivencia en Dragon Ball Super.",
+            image = "https://dragonball-api.com/planetas/Trono_del_Rey_de_Todo.webp",
+        ),
+        transformations = [
+
+        ]
+    ),
+    Character(
+        id = 64,
+        name = "Zeno-Sama",
+        ki = "500 Septillion",
+        maxKi = "500 Septillion",
+        race = "Unknown",
+        gender = "Male",
+        description = "Zeno es el ser supremo del multiverso y tiene un poder abrumador .El Rey de Todo, también conocido como Zen Oo (Zeno Sama en España y Zen Oo Sama en Hispanoamerica) y apodado por Son Goku como Pequeño Zen, es el gobernante y dios absoluto de todos los universos y el máximo soberano de todo lo existente en Dragon Ball.",
+        image = "https://dragonball-api.com/characters/Zeno_Artwork.webp",
+        affiliation = "Other",
+        originPlanet = Planet(
+            id = 2,
+            name = "Templo móvil del rey de todo",
+            isDestroyed = False,
+            description = "El templo móvil del Rey de Todo (sala del trono), es como su nombre lo indica, un templo móvil en el cual reside los tronos de los dos Reyes de Todo en el Lugar de Supervivencia en Dragon Ball Super.",
+            image = "https://dragonball-api.com/planetas/Trono_del_Rey_de_Todo.webp",
         ),
         transformations = [
 
@@ -1359,13 +1642,16 @@ def get_all_characters():
     page = int(request.args.get('page', 1))
     limit = int(request.args.get('limit', 10))
     
-    total_items = len(SAMPLE_CHARACTERS)
+    # Ordenar la lista de personajes por id
+    sorted_characters = sorted(SAMPLE_CHARACTERS, key=lambda x: x.id)
+    
+    total_items = len(sorted_characters)
     total_pages = ceil(total_items / limit)
     start_idx = (page - 1) * limit
     end_idx = start_idx + limit
     
     # Get paginated items
-    paginated_items = SAMPLE_CHARACTERS[start_idx:end_idx]
+    paginated_items = sorted_characters[start_idx:end_idx]
     
     return jsonify({
         'items': [char.to_dict() for char in paginated_items],
